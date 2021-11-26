@@ -4,6 +4,7 @@ branding:
   icon: bell # https://feathericons.com/
   color: blue # hex accepted
 
+
 #-------------------------------------------------------------
 # All values needed to be provided/verified by the user should be defined as inputs.
 # Values can be provided using a values file (yaml/json/.env format) or from the UX.
