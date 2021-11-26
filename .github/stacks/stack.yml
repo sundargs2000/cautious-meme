@@ -30,16 +30,15 @@ branding:
   #   is-secret: true / false
 
 #-------------------------------------------------------------
-# configs:
-  # Meta data for creating the new repository
-  # repo-metadata:
-  #   parameters:
-  #     secrets: 
-  #     - name: sample_secret
-  #       value: ${{inputs.secret}} # example of a reference
-  #     topics:
-  #     - sample_topic_1
-  #     - sample_topic_2
+configs:
+  repo-metadata:
+    parameters:
+      secrets: 
+      - name: sample_secret
+        value: ${{inputs.secret}} # example of a reference
+      topics:
+      - sample_topic_1
+      - sample_topic_2
       
   # Branch Protection rules
   # branches:
